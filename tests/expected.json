@@ -1,0 +1,704 @@
+{
+ "items": [
+  {
+   "file": "tcp_http.pcap",
+   "count": 5,
+   "packets": [
+    {
+     "i": 0,
+     "ts_sec": 1791292336,
+     "ts_frac": 268423,
+     "incl_len": 54,
+     "orig_len": 54,
+     "offset": 24,
+     "ts": 1791292336.268423,
+     "eth": {
+      "src": "aa:bb:cc:00:00:01",
+      "dst": "aa:bb:cc:00:00:02",
+      "type": 2048
+     },
+     "ip": {
+      "src": "192.168.1.10",
+      "dst": "93.184.216.34",
+      "proto": 6,
+      "ttl": 64,
+      "len": 40,
+      "id": 1,
+      "flags": 0,
+      "chksum": 33602,
+      "ihl_words": 5,
+      "version": 4
+     },
+     "ip_chksum_ok": true,
+     "tcp": {
+      "sport": 51000,
+      "dport": 80,
+      "seq": 1000,
+      "ack": 0,
+      "flags": "S",
+      "window": 8192,
+      "chksum": 52452
+     },
+     "payload_len": 20
+    },
+    {
+     "i": 1,
+     "ts_sec": 1791292336,
+     "ts_frac": 268768,
+     "incl_len": 54,
+     "orig_len": 54,
+     "offset": 94,
+     "ts": 1791292336.268768,
+     "eth": {
+      "src": "aa:bb:cc:00:00:02",
+      "dst": "aa:bb:cc:00:00:01",
+      "type": 2048
+     },
+     "ip": {
+      "src": "93.184.216.34",
+      "dst": "192.168.1.10",
+      "proto": 6,
+      "ttl": 64,
+      "len": 40,
+      "id": 1,
+      "flags": 0,
+      "chksum": 33602,
+      "ihl_words": 5,
+      "version": 4
+     },
+     "ip_chksum_ok": true,
+     "tcp": {
+      "sport": 80,
+      "dport": 51000,
+      "seq": 5000,
+      "ack": 1001,
+      "flags": "SA",
+      "window": 8192,
+      "chksum": 47435
+     },
+     "payload_len": 20
+    },
+    {
+     "i": 2,
+     "ts_sec": 1791292336,
+     "ts_frac": 268918,
+     "incl_len": 54,
+     "orig_len": 54,
+     "offset": 164,
+     "ts": 1791292336.268918,
+     "eth": {
+      "src": "aa:bb:cc:00:00:01",
+      "dst": "aa:bb:cc:00:00:02",
+      "type": 2048
+     },
+     "ip": {
+      "src": "192.168.1.10",
+      "dst": "93.184.216.34",
+      "proto": 6,
+      "ttl": 64,
+      "len": 40,
+      "id": 1,
+      "flags": 0,
+      "chksum": 33602,
+      "ihl_words": 5,
+      "version": 4
+     },
+     "ip_chksum_ok": true,
+     "tcp": {
+      "sport": 51000,
+      "dport": 80,
+      "seq": 1001,
+      "ack": 5001,
+      "flags": "A",
+      "window": 8192,
+      "chksum": 47436
+     },
+     "payload_len": 20
+    },
+    {
+     "i": 3,
+     "ts_sec": 1791292336,
+     "ts_frac": 269106,
+     "incl_len": 91,
+     "orig_len": 91,
+     "offset": 234,
+     "ts": 1791292336.269106,
+     "eth": {
+      "src": "aa:bb:cc:00:00:01",
+      "dst": "aa:bb:cc:00:00:02",
+      "type": 2048
+     },
+     "ip": {
+      "src": "192.168.1.10",
+      "dst": "93.184.216.34",
+      "proto": 6,
+      "ttl": 64,
+      "len": 77,
+      "id": 1,
+      "flags": 0,
+      "chksum": 33565,
+      "ihl_words": 5,
+      "version": 4
+     },
+     "ip_chksum_ok": true,
+     "tcp": {
+      "sport": 51000,
+      "dport": 80,
+      "seq": 1001,
+      "ack": 5001,
+      "flags": "PA",
+      "window": 8192,
+      "chksum": 28794
+     },
+     "payload_len": 57
+    },
+    {
+     "i": 4,
+     "ts_sec": 1791292336,
+     "ts_frac": 269352,
+     "incl_len": 54,
+     "orig_len": 54,
+     "offset": 341,
+     "ts": 1791292336.269352,
+     "eth": {
+      "src": "aa:bb:cc:00:00:02",
+      "dst": "aa:bb:cc:00:00:01",
+      "type": 2048
+     },
+     "ip": {
+      "src": "93.184.216.34",
+      "dst": "192.168.1.10",
+      "proto": 6,
+      "ttl": 64,
+      "len": 40,
+      "id": 1,
+      "flags": 0,
+      "chksum": 33602,
+      "ihl_words": 5,
+      "version": 4
+     },
+     "ip_chksum_ok": true,
+     "tcp": {
+      "sport": 80,
+      "dport": 51000,
+      "seq": 5001,
+      "ack": 1039,
+      "flags": "FA",
+      "window": 8192,
+      "chksum": 47397
+     },
+     "payload_len": 20
+    }
+   ],
+   "nano": false,
+   "little_endian": true,
+   "version": [
+    2,
+    4
+   ],
+   "snaplen": 65535,
+   "linktype": 1
+  },
+  {
+   "file": "udp_dns.pcap",
+   "count": 2,
+   "packets": [
+    {
+     "i": 0,
+     "ts_sec": 1791292336,
+     "ts_frac": 271199,
+     "incl_len": 75,
+     "orig_len": 75,
+     "offset": 24,
+     "ts": 1791292336.271199,
+     "eth": {
+      "src": "02:fc:00:00:00:05",
+      "dst": "ff:ff:ff:ff:ff:ff",
+      "type": 2048
+     },
+     "ip": {
+      "src": "10.0.0.5",
+      "dst": "8.8.8.8",
+      "proto": 17,
+      "ttl": 64,
+      "len": 61,
+      "id": 1,
+      "flags": 0,
+      "chksum": 24731,
+      "ihl_words": 5,
+      "version": 4
+     },
+     "ip_chksum_ok": true,
+     "udp": {
+      "sport": 53333,
+      "dport": 53,
+      "len": 41,
+      "chksum": 51872
+     },
+     "dns": {
+      "id": 0,
+      "qr": 0,
+      "qdcount": 1,
+      "ancount": 0,
+      "qname": "www.example.com.",
+      "qtype": 1
+     },
+     "payload_len": 41
+    },
+    {
+     "i": 1,
+     "ts_sec": 1791292336,
+     "ts_frac": 271585,
+     "incl_len": 106,
+     "orig_len": 106,
+     "offset": 115,
+     "ts": 1791292336.271585,
+     "eth": {
+      "src": "02:fc:00:00:00:05",
+      "dst": "ff:ff:ff:ff:ff:ff",
+      "type": 2048
+     },
+     "ip": {
+      "src": "8.8.8.8",
+      "dst": "10.0.0.5",
+      "proto": 17,
+      "ttl": 64,
+      "len": 92,
+      "id": 1,
+      "flags": 0,
+      "chksum": 24700,
+      "ihl_words": 5,
+      "version": 4
+     },
+     "ip_chksum_ok": true,
+     "udp": {
+      "sport": 53,
+      "dport": 53333,
+      "len": 72,
+      "chksum": 46988
+     },
+     "dns": {
+      "id": 0,
+      "qr": 1,
+      "qdcount": 1,
+      "ancount": 1,
+      "qname": "www.example.com.",
+      "qtype": 1,
+      "answer": "93.184.216.34",
+      "ttl": 300
+     },
+     "payload_len": 72
+    }
+   ],
+   "nano": false,
+   "little_endian": true,
+   "version": [
+    2,
+    4
+   ],
+   "snaplen": 65535,
+   "linktype": 1
+  },
+  {
+   "file": "icmp_arp.pcap",
+   "count": 4,
+   "packets": [
+    {
+     "i": 0,
+     "ts_sec": 1791292336,
+     "ts_frac": 279487,
+     "incl_len": 42,
+     "orig_len": 42,
+     "offset": 24,
+     "ts": 1791292336.279487,
+     "eth": {
+      "src": "aa:bb:cc:00:00:01",
+      "dst": "ff:ff:ff:ff:ff:ff",
+      "type": 2054
+     },
+     "arp": {
+      "op": 1,
+      "psrc": "192.168.1.10",
+      "pdst": "192.168.1.1",
+      "hwsrc": "aa:bb:cc:00:00:01",
+      "hwdst": "00:00:00:00:00:00"
+     },
+     "payload_len": 0
+    },
+    {
+     "i": 1,
+     "ts_sec": 1791292336,
+     "ts_frac": 279687,
+     "incl_len": 42,
+     "orig_len": 42,
+     "offset": 82,
+     "ts": 1791292336.279687,
+     "eth": {
+      "src": "aa:bb:cc:00:00:02",
+      "dst": "aa:bb:cc:00:00:01",
+      "type": 2054
+     },
+     "arp": {
+      "op": 2,
+      "psrc": "192.168.1.1",
+      "pdst": "192.168.1.10",
+      "hwsrc": "aa:bb:cc:00:00:02",
+      "hwdst": "00:00:00:00:00:00"
+     },
+     "payload_len": 0
+    },
+    {
+     "i": 2,
+     "ts_sec": 1791292336,
+     "ts_frac": 279831,
+     "incl_len": 52,
+     "orig_len": 52,
+     "offset": 140,
+     "ts": 1791292336.279831,
+     "eth": {
+      "src": "02:fc:00:00:00:05",
+      "dst": "ff:ff:ff:ff:ff:ff",
+      "type": 2048
+     },
+     "ip": {
+      "src": "192.168.1.10",
+      "dst": "192.168.1.1",
+      "proto": 1,
+      "ttl": 64,
+      "len": 38,
+      "id": 1,
+      "flags": 0,
+      "chksum": 63354,
+      "ihl_words": 5,
+      "version": 4
+     },
+     "ip_chksum_ok": true,
+     "icmp": {
+      "type": 8,
+      "code": 0,
+      "id": 4660,
+      "seq": 1
+     },
+     "payload_len": 18
+    },
+    {
+     "i": 3,
+     "ts_sec": 1791292336,
+     "ts_frac": 280402,
+     "incl_len": 52,
+     "orig_len": 52,
+     "offset": 208,
+     "ts": 1791292336.280402,
+     "eth": {
+      "src": "02:fc:00:00:00:05",
+      "dst": "ff:ff:ff:ff:ff:ff",
+      "type": 2048
+     },
+     "ip": {
+      "src": "192.168.1.1",
+      "dst": "192.168.1.10",
+      "proto": 1,
+      "ttl": 64,
+      "len": 38,
+      "id": 1,
+      "flags": 0,
+      "chksum": 63354,
+      "ihl_words": 5,
+      "version": 4
+     },
+     "ip_chksum_ok": true,
+     "icmp": {
+      "type": 0,
+      "code": 0,
+      "id": 4660,
+      "seq": 1
+     },
+     "payload_len": 18
+    }
+   ],
+   "nano": false,
+   "little_endian": true,
+   "version": [
+    2,
+    4
+   ],
+   "snaplen": 65535,
+   "linktype": 1
+  },
+  {
+   "file": "ipv6.pcap",
+   "count": 2,
+   "packets": [
+    {
+     "i": 0,
+     "ts_sec": 1791292336,
+     "ts_frac": 283071,
+     "incl_len": 74,
+     "orig_len": 74,
+     "offset": 24,
+     "ts": 1791292336.283071,
+     "eth": {
+      "src": "00:00:00:00:00:00",
+      "dst": "ff:ff:ff:ff:ff:ff",
+      "type": 34525
+     },
+     "ipv6": {
+      "src": "2001:db8::1",
+      "dst": "2001:db8::2",
+      "nh": 6,
+      "hlim": 64,
+      "plen": 20
+     },
+     "tcp": {
+      "sport": 4433,
+      "dport": 443,
+      "seq": 77,
+      "ack": 0,
+      "flags": "S",
+      "window": 8192,
+      "chksum": 8469
+     },
+     "payload_len": 20
+    },
+    {
+     "i": 1,
+     "ts_sec": 1791292336,
+     "ts_frac": 283263,
+     "incl_len": 64,
+     "orig_len": 64,
+     "offset": 114,
+     "ts": 1791292336.283263,
+     "eth": {
+      "src": "00:00:00:00:00:00",
+      "dst": "ff:ff:ff:ff:ff:ff",
+      "type": 34525
+     },
+     "ipv6": {
+      "src": "2001:db8::2",
+      "dst": "2001:db8::1",
+      "nh": 58,
+      "hlim": 64,
+      "plen": 10
+     },
+     "icmpv6": {
+      "kind": "icmpv6_echo_request",
+      "id": 1,
+      "seq": 1
+     },
+     "payload_len": 10
+    }
+   ],
+   "nano": false,
+   "little_endian": true,
+   "version": [
+    2,
+    4
+   ],
+   "snaplen": 65535,
+   "linktype": 1
+  },
+  {
+   "file": "nano.pcap",
+   "count": 5,
+   "packets": [
+    {
+     "i": 0,
+     "ts_sec": 1791292336,
+     "ts_frac": 268423,
+     "incl_len": 54,
+     "orig_len": 54,
+     "offset": 24,
+     "ts": 1791292336.0002685,
+     "eth": {
+      "src": "aa:bb:cc:00:00:01",
+      "dst": "aa:bb:cc:00:00:02",
+      "type": 2048
+     },
+     "ip": {
+      "src": "192.168.1.10",
+      "dst": "93.184.216.34",
+      "proto": 6,
+      "ttl": 64,
+      "len": 40,
+      "id": 1,
+      "flags": 0,
+      "chksum": 33602,
+      "ihl_words": 5,
+      "version": 4
+     },
+     "ip_chksum_ok": true,
+     "tcp": {
+      "sport": 51000,
+      "dport": 80,
+      "seq": 1000,
+      "ack": 0,
+      "flags": "S",
+      "window": 8192,
+      "chksum": 52452
+     },
+     "payload_len": 20
+    },
+    {
+     "i": 1,
+     "ts_sec": 1791292336,
+     "ts_frac": 268768,
+     "incl_len": 54,
+     "orig_len": 54,
+     "offset": 94,
+     "ts": 1791292336.0002687,
+     "eth": {
+      "src": "aa:bb:cc:00:00:02",
+      "dst": "aa:bb:cc:00:00:01",
+      "type": 2048
+     },
+     "ip": {
+      "src": "93.184.216.34",
+      "dst": "192.168.1.10",
+      "proto": 6,
+      "ttl": 64,
+      "len": 40,
+      "id": 1,
+      "flags": 0,
+      "chksum": 33602,
+      "ihl_words": 5,
+      "version": 4
+     },
+     "ip_chksum_ok": true,
+     "tcp": {
+      "sport": 80,
+      "dport": 51000,
+      "seq": 5000,
+      "ack": 1001,
+      "flags": "SA",
+      "window": 8192,
+      "chksum": 47435
+     },
+     "payload_len": 20
+    },
+    {
+     "i": 2,
+     "ts_sec": 1791292336,
+     "ts_frac": 268918,
+     "incl_len": 54,
+     "orig_len": 54,
+     "offset": 164,
+     "ts": 1791292336.000269,
+     "eth": {
+      "src": "aa:bb:cc:00:00:01",
+      "dst": "aa:bb:cc:00:00:02",
+      "type": 2048
+     },
+     "ip": {
+      "src": "192.168.1.10",
+      "dst": "93.184.216.34",
+      "proto": 6,
+      "ttl": 64,
+      "len": 40,
+      "id": 1,
+      "flags": 0,
+      "chksum": 33602,
+      "ihl_words": 5,
+      "version": 4
+     },
+     "ip_chksum_ok": true,
+     "tcp": {
+      "sport": 51000,
+      "dport": 80,
+      "seq": 1001,
+      "ack": 5001,
+      "flags": "A",
+      "window": 8192,
+      "chksum": 47436
+     },
+     "payload_len": 20
+    },
+    {
+     "i": 3,
+     "ts_sec": 1791292336,
+     "ts_frac": 269106,
+     "incl_len": 91,
+     "orig_len": 91,
+     "offset": 234,
+     "ts": 1791292336.0002692,
+     "eth": {
+      "src": "aa:bb:cc:00:00:01",
+      "dst": "aa:bb:cc:00:00:02",
+      "type": 2048
+     },
+     "ip": {
+      "src": "192.168.1.10",
+      "dst": "93.184.216.34",
+      "proto": 6,
+      "ttl": 64,
+      "len": 77,
+      "id": 1,
+      "flags": 0,
+      "chksum": 33565,
+      "ihl_words": 5,
+      "version": 4
+     },
+     "ip_chksum_ok": true,
+     "tcp": {
+      "sport": 51000,
+      "dport": 80,
+      "seq": 1001,
+      "ack": 5001,
+      "flags": "PA",
+      "window": 8192,
+      "chksum": 28794
+     },
+     "payload_len": 57
+    },
+    {
+     "i": 4,
+     "ts_sec": 1791292336,
+     "ts_frac": 269352,
+     "incl_len": 54,
+     "orig_len": 54,
+     "offset": 341,
+     "ts": 1791292336.0002694,
+     "eth": {
+      "src": "aa:bb:cc:00:00:02",
+      "dst": "aa:bb:cc:00:00:01",
+      "type": 2048
+     },
+     "ip": {
+      "src": "93.184.216.34",
+      "dst": "192.168.1.10",
+      "proto": 6,
+      "ttl": 64,
+      "len": 40,
+      "id": 1,
+      "flags": 0,
+      "chksum": 33602,
+      "ihl_words": 5,
+      "version": 4
+     },
+     "ip_chksum_ok": true,
+     "tcp": {
+      "sport": 80,
+      "dport": 51000,
+      "seq": 5001,
+      "ack": 1039,
+      "flags": "FA",
+      "window": 8192,
+      "chksum": 47397
+     },
+     "payload_len": 20
+    }
+   ],
+   "nano": true,
+   "little_endian": true,
+   "version": [
+    2,
+    4
+   ],
+   "snaplen": 65535,
+   "linktype": 1
+  },
+  {
+   "file": "bad_trunc.pcap",
+   "expect_warning": "truncated"
+  }
+ ]
+}
